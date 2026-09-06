@@ -76,7 +76,7 @@ function Personal() {
       <InformationContainer>
         <IconContainer>
           <Geo />
-          <span>Nijmegen, The Netherlands</span>
+          <span>Utrecht, The Netherlands</span>
         </IconContainer>
 
         <IconContainer>
@@ -108,23 +108,19 @@ function Personal() {
 
         <IconContainer as={'a'} href="https://www.linkedin.com/in/jeroen-dejong/" target="_blank" rel="noopener noreferrer">
           <Linkedin />
-          <span>Connect with me on LinkedIn</span>
+          <span>LinkedIn</span>
         </IconContainer>
 
         <IconContainer as={'a'} href="https://github.com/JeroendeJong" target="_blank" rel="noopener noreferrer">
           <Github />
-          <span>Find me on GitHub</span>
+          <span>GitHub</span>
         </IconContainer>
 
         <IconContainer as={'a'} href="mailto:jdjjong@icloud.com" target="_blank" rel="noopener noreferrer">
           <EnvelopeCheckFill />
-          <span>Feel free to contact me!</span>
+          <span>Mail</span>
         </IconContainer>
 
-        <IconContainer as={'a'} href="http://www.jeroentravel.com" target="_blank" rel="noopener noreferrer">
-          <MapFill />
-          <span>Personal Travel website</span>
-        </IconContainer>
       </InformationContainer>
     </ImageContainer>
   )
