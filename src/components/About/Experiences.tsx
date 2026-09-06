@@ -1,4 +1,20 @@
 
+export function JobExperienceAtSimacan() {
+  return (
+    <>
+      <p style={{marginBottom: '20px'}}>
+        At Simacan, I combine my frontend web responsibilities with mobile development for the logistics market. I have worked extensively on a real-time navigation and delivery application, helping make delivery workflows clear and actionable for people on the road.
+      </p>
+
+      <ul>
+        <li>Built and maintained real-time navigation and delivery features in React Native</li>
+        <li>Developed Android-specific functionality with Kotlin</li>
+        <li>Applied frontend experience across both the mobile app and Simacan&apos;s web products</li>
+      </ul>
+    </>
+  )
+}
+
 export function JobExperienceAtLivingMap() {
   return (
     <>

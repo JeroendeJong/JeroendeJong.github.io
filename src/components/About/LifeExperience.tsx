@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { LifeExperienceItem } from "./LifeExperienceItem"
-import { JobExperienceAtKPVLab, JobExperienceAtLivingMap } from "./Experiences"
+import { JobExperienceAtKPVLab, JobExperienceAtLivingMap, JobExperienceAtSimacan } from "./Experiences"
 import { Tag, TagContainer } from "../Tag"
 
 const Container = styled.div`
@@ -12,28 +12,49 @@ const Container = styled.div`
 export function LifeExperience() {
   return (
     <Container>
-      <RadboudUniversity/>
-      <KPVLab/>
-      <LivingMap/>
-      <HogeschoolUtrecht/>
+      <Simacan />
+      <RadboudUniversity />
+      <KPVLab />
+      <LivingMap />
+      <HogeschoolUtrecht />
     </Container>
+  )
+}
+
+function Simacan() {
+  return (
+    <LifeExperienceItem
+      imageSource="/assets/Simacan.png"
+      title="Frontend Software Developer at Simacan B.V."
+      period="Current role"
+    >
+      <JobExperienceAtSimacan />
+      <TagContainer>
+        <Tag>React Native</Tag>
+        <Tag>Kotlin</Tag>
+        <Tag>Android</Tag>
+        <Tag>Real-time applications</Tag>
+        <Tag>Logistics</Tag>
+        <Tag>Frontend development</Tag>
+      </TagContainer>
+    </LifeExperienceItem>
   )
 }
 
 function RadboudUniversity() {
   return (
-    <LifeExperienceItem 
+    <LifeExperienceItem
       imageSource="/assets/Radboud.png"
       title="Msc in Human Geography at Radboud University"
       period="September 2021 - December 2023"
     >
       <p>
-        My time working as a software developer taught me the importance of taking a step back before diving into the details. 
+        My time working as a software developer taught me the importance of taking a step back before diving into the details.
         This realisation, alongside my understanding of lacking some mangerial skills and research methodology, I concluded that I wanted to do a masteres degree.
-        This to challenge myself and also gain skills in the aforementioned areas. I decided to work towards achieving a masters degree in Human Geography at the Radboud University. 
+        This to challenge myself and also gain skills in the aforementioned areas. I decided to work towards achieving a masters degree in Human Geography at the Radboud University.
         Human geography as a subject has not too much to do with software devlepment specifically, but I believe the soft-skills gained to be highly relevant.
         I chose this degree because the topic has always been another one of my personal hobbies to me.
-      </p>  
+      </p>
       <TagContainer>
         <Tag>Analytical Thinking</Tag>
         <Tag>Writing and Reporting skills</Tag>
@@ -46,13 +67,13 @@ function RadboudUniversity() {
 
 function KPVLab() {
   return (
-    <LifeExperienceItem 
+    <LifeExperienceItem
       imageSource="/assets/KPV.jpg"
       title="Frontend Software Developer at KPV Lab"
       period="December 2020 - September 2021"
 
     >
-      <JobExperienceAtKPVLab/>
+      <JobExperienceAtKPVLab />
       <TagContainer>
         <Tag>Functional Programming</Tag>
         <Tag>TDD</Tag>
@@ -66,12 +87,12 @@ function KPVLab() {
 
 function LivingMap() {
   return (
-    <LifeExperienceItem 
+    <LifeExperienceItem
       imageSource="/assets/LM.png"
       title="Software Developer at Living Map"
       period="February 2017 - December 2020"
     >
-      <JobExperienceAtLivingMap/>
+      <JobExperienceAtLivingMap />
       <TagContainer>
         <Tag>React</Tag>
         <Tag>Redux</Tag>
@@ -88,13 +109,13 @@ function LivingMap() {
 
 function HogeschoolUtrecht() {
   return (
-    <LifeExperienceItem 
+    <LifeExperienceItem
       imageSource="/assets/HU.png"
       title="BSc Geodesy and Geo-informatics at the Hogeschool Utrecht"
       period="August 2013 - August 2017"
     >
-      During my BSc I was also able to work alot with geographical databases. I have also a lot of calcules maths, with linear algebra, matrix computation etc. 
-      Furthermore, I have learned a lot about how to visualize information, how to structure data, and what data means. 
+      During my BSc I was also able to work alot with geographical databases. I have also a lot of calcules maths, with linear algebra, matrix computation etc.
+      Furthermore, I have learned a lot about how to visualize information, how to structure data, and what data means.
       <TagContainer>
         <Tag>Statistics</Tag>
         <Tag>Linear Algebra</Tag>

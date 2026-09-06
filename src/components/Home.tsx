@@ -29,7 +29,7 @@ const Description = styled.p`
   }
 `
 
-const Naviation = styled.div`
+const Navigation = styled.div`
   margin: 2em;
   width: min-content;
 `
@@ -62,7 +62,7 @@ const CharacteristicText = styled.div`
   font-weight: 200;
 `
 
-const text = ['Frontend Developer', 'Geography Geek', 'Data Enthusiast']
+const text = ['Builder', 'Frontend Engineer', 'Geography Geek', 'Data Enthusiast']
 
 function Home() {
   const [index, setIndex] = useState(0);
@@ -109,16 +109,16 @@ function Home() {
         </CharacteristicText>
       </MainTitleLine>
       <Description>
-        I am <strong>Frontend Web App Developer</strong> with a love for visualizing complex geographical data. 
+        I am <strong>Frontend Web App Developer</strong> with a love for visualizing complex geographical data.
         Previously I have worked as a Frontend developer in both England and Scotland.
         Currently, I am back in The Netherlands after having finished my masters degree and am currently open to any work opportunity!
       </Description>
 
-      <Naviation>
+      <Navigation>
         <LinkItem id="about" to="/about">About</LinkItem>
         <LinkItem id="projects" to="/projects">Projects</LinkItem>
         <LinkItem id="articles" to="/articles">Articles</LinkItem>
-      </Naviation>
+      </Navigation>
     </Container>
   )
 }
