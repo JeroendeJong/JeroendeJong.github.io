@@ -3,6 +3,7 @@
 
 .cache
 .sass-cache
+.yarn
 
 node_modules
 build
