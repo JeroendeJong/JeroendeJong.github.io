@@ -5,9 +5,10 @@ import { useState } from "react"
 import styled from "styled-components";
 import { PageControls, PageButton, PageText } from "./Pagination";
 
-// got this line from their wiki -- otherwise it crashed. 
-// Something with the way the worker file is packaged through Create React app.
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.mjs',
+  import.meta.url,
+).toString();
 
 function Article() {
   const params = useParams()

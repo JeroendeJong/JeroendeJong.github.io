@@ -33,7 +33,7 @@ const CoreStyles = createGlobalStyle`
 root.render(
   <React.StrictMode>
     <CoreStyles />
-    <HashRouter>
+    <HashRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <App />
     </HashRouter>
   </React.StrictMode>
