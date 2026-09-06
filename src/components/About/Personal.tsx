@@ -130,31 +130,24 @@ function Personal() {
   )
 }
 
-const TextAlignParagrah = styled.p`
+const TextAlignParagraph = styled.p`
   text-align: justify;
 `
 
 function ElevatorPitch() {
   return (
     <>
-      <TextAlignParagrah>
-        Hi, Welcome to my personal website. My name is Jeroen de Jong, born and raised in the north of The Netherlands.
-        At the end of my bachelors in Geo-informatics, I found a lot of joy in solving geographical problems. Specifically the combination between software development and data visualisation I found my passion.
-        I however came to thoroughly enjoy software development in general because it allows me to solve problems and be creative.
-        Working with like minded people on building complex and user friendly applications is very fun to me.
-        Specifically frontend development is something I really enjoyed because I personnaly find a good design to be extremely important.
-        I came to love working with TypeScript, React, and many other technologies that allow me to be able to create even beter user experiences.
-      </TextAlignParagrah>
+      <TextAlignParagraph>
+        I'm a software engineer with a background in geo-informatics and a particular interest in making complex data understandable and useful. My main working interest spans interactive maps, 3D visualisations and realtime data applications, with a focus on frontend development using React and TypeScript.
+      </TextAlignParagraph>
       <br />
-      <TextAlignParagrah>
-        I have worked as a software developer for almost 5 years now, but I concluded that I was missing some more theorethical thinking level and research background.
-        As a result, I decided to pursue a Master degree in Geography at the Radboud University in Nijmegen.
-      </TextAlignParagrah>
+      <TextAlignParagraph>
+        At Simacan, I work across web and mobile products, including a real-time navigation and delivery application built with React Native and Kotlin. Previously, I helped build a WebGL-based mapping product at Living Map, where I became frontend team lead, and worked on a 3D graphing application at KPV Lab.
+      </TextAlignParagraph >
       <br />
-      <TextAlignParagrah>
-        Now that I've finished this I am once again looking for a place where I can help build awesome software, and apply my working experience together with my new-found academical skills.
-      </TextAlignParagrah>
-
+      <TextAlignParagraph>
+        I enjoy working with designers and other developers to turn complex requirements into clear, usable interfaces. Alongside my engineering experience, my masters degree in Human Geography has strengthened how I research problems, evaluate evidence and communicate ideas.
+      </TextAlignParagraph >
     </>
   )
 }

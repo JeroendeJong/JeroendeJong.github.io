@@ -109,9 +109,7 @@ function Home() {
         </CharacteristicText>
       </MainTitleLine>
       <Description>
-        I am <strong>Frontend Web App Developer</strong> with a love for visualizing complex geographical data.
-        Previously I have worked as a Frontend developer in both England and Scotland.
-        Currently, I am back in The Netherlands after having finished my masters degree and am currently open to any work opportunity!
+        I'm a software engineer focused on frontend development, with experience in React, TypeScript and React Native. I enjoy making complex geographical data understandable through clear and understandable interfaces. Currently, I work in logistics SaaS at Simacan B.V..
       </Description>
 
       <Navigation>

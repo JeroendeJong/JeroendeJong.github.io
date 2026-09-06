@@ -45,7 +45,7 @@ function Articles() {
     <Section title="Articles">
       <Container>
         <ul>
-          <ArticlesList/>
+          <ArticlesList />
         </ul>
       </Container>
     </Section>
@@ -83,9 +83,5 @@ function ArticlesList() {
 
   return <>{list}</>
 }
-
-// exterior #dde3e7
-// int #435362
-
 
 export { Articles }

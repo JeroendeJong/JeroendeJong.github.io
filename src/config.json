@@ -4,89 +4,93 @@
       "id": 0,
       "title": "Identity and the conflict in South Ossetia",
       "subtitle": "South Ossetia, a small, tiny region in the Caucasus has been rebelling against its bigger neighbour Georgia for independence since the fall of the USSR. To date, only few countries recognize this independence, however ...",
-      "date": "2022-09-15", 
+      "date": "2022-09-15",
       "data": {
         "pdfUrl": "/assets/master/Ethnicity_South_Ossetia.pdf",
         "remoteUrl": null
       },
-      "tags": ["South Ossetia", "Violence", "Radboud University"]
-    },
-    {
-      "id": 1,
-      "title": "Hunger as a form of violence",
-      "subtitle": "Rank and file and the man-made famine in Soviet Ukraine",
-      "date": "2022-10-17", 
-      "data": {
-        "pdfUrl": "/assets/master/The_Violence_of_Hunger_Holodomor.pdf",
-        "remoteUrl": null
-      },
-      "tags": ["Ukraine", "Violence", "Radboud University"]
+      "tags": [
+        "South Ossetia",
+        "Violence",
+        "Radboud University"
+      ]
     },
     {
       "id": 2,
       "title": "Violence as a tool for some and death for others",
       "subtitle": "A look at instrumentalism in the debate on violent conflicts",
-      "date": "2022-10-30", 
+      "date": "2022-10-30",
       "data": {
         "pdfUrl": "/assets/master/Debate_on_violence_Instrumentalism.pdf",
         "remoteUrl": null
       },
-      "tags": ["Instrumentalism", "Violence", "Radboud University"]
+      "tags": [
+        "Instrumentalism",
+        "Violence",
+        "Radboud University"
+      ]
     },
     {
       "id": 3,
       "title": "Processes of bordering and the Narva border",
       "subtitle": "In the 30+ degree heat I was sitting in a bus heading from Tallinn bound for St. Petersburg, Russia. This border crossing journey took more than 10 hours, of which around ...",
-      "date": "2022-11-02", 
+      "date": "2022-11-02",
       "data": {
         "pdfUrl": "/assets/master/Processes_of_bordering_at_narva.pdf",
         "remoteUrl": null
       },
-      "tags": ["borders", "bordering", "Radboud University"]
+      "tags": [
+        "borders",
+        "bordering",
+        "Radboud University"
+      ]
     },
     {
       "id": 4,
       "title": "Globalisation of bordering processes",
       "subtitle": "The role of the influential external actors on bordering processes in the Nagorno Karabakh conflict",
-      "date": "2022-11-02", 
+      "date": "2022-11-02",
       "data": {
         "pdfUrl": "/assets/master/Border_Externalisation_in_NKR.pdf",
         "remoteUrl": null
       },
-      "tags": ["borders", "border", "European Union", "Radboud University"]
-    },
-    {
-      "id": 5,
-      "title": "Warlords in Donbas",
-      "subtitle": "The role of Ukrainian warlords on the separatist movement in the Donbas region during the initial stages of the conflict",
-      "date": "2022-06-14", 
-      "data": {
-        "pdfUrl": "/assets/premaster/Warlords_in_Donbas.pdf",
-        "remoteUrl": null
-      },
-      "tags": ["Violence", "Ukraine", "Radboud University"]
+      "tags": [
+        "borders",
+        "border",
+        "European Union",
+        "Radboud University"
+      ]
     },
     {
       "id": 6,
       "title": "Border openness of the European Union",
       "subtitle": "How open can or must the external borders for migrations of the European Union be?",
-      "date": "2021-09-26", 
+      "date": "2021-09-26",
       "data": {
         "pdfUrl": "/assets/premaster/Border_openness_eu.pdf",
         "remoteUrl": null
       },
-      "tags": ["borders", "border", "European Union", "Radboud University"]
+      "tags": [
+        "borders",
+        "border",
+        "European Union",
+        "Radboud University"
+      ]
     },
     {
       "id": 7,
       "title": "Kaartkleuren - Algoritmes voor het inkleuren van grafen",
       "subtitle": "In dit verslag wordt een aanpak van het grafenkleurprobleem gepresenteerd. De verschillende algoritmes en heuristieken die zijn gebruikt en toegepast op geografische kaarten en sociale netwerken worden uitgelegd en de resultaten worden met elkaar vergeleken",
-      "date": "2015-12-18", 
+      "date": "2015-12-18",
       "data": {
         "pdfUrl": "/assets/bachelor/finalreport_teammushroom.pdf",
         "remoteUrl": null
       },
-      "tags": ["Graphs", "Algorithms", "University of Amsterdam"]
+      "tags": [
+        "Graphs",
+        "Algorithms",
+        "University of Amsterdam"
+      ]
     }
   ]
 }

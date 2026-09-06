@@ -3,13 +3,13 @@ export function JobExperienceAtSimacan() {
   return (
     <>
       <p style={{marginBottom: '20px'}}>
-        At Simacan, I combine my frontend web responsibilities with mobile development for the logistics market. I have worked extensively on a real-time navigation and delivery application, helping make delivery workflows clear and actionable for people on the road.
+        At Simacan, I combine frontend web development with mobile development for the logistics industry. I work extensively on a real-time navigation and delivery application, making delivery workflows clearer and more actionable for people on the road.
       </p>
 
       <ul>
         <li>Built and maintained real-time navigation and delivery features in React Native</li>
         <li>Developed Android-specific functionality with Kotlin</li>
-        <li>Applied frontend experience across both the mobile app and Simacan&apos;s web products</li>
+        <li>Applied frontend expertise across both the mobile app and Simacan&apos;s web products</li>
       </ul>
     </>
   )
@@ -19,24 +19,22 @@ export function JobExperienceAtLivingMap() {
   return (
     <>
       <p style={{marginBottom: '20px'}}>
-        At Living Map, I started out as a GIS developer, but quickly thereafter switched to a full-stack developer. As it was a small company when i started, I was responsible for many different parts of our stack. Both frontend and backend. Yet, as the company grew, I specialized in frontend development, and learned the ins-and-outs of how to create and maintain good code quality. 
-        In the 3 and a half years that I have worked there, we have been busy crafting a WebGL based mapping product with various map data layers and unique smart UX workflows
-        to help users make sense and also navigate their indoor geospatial environments. Within the team I grew to become the frontend team lead.
+        I joined Living Map as a GIS developer and soon moved into a full-stack role. At this early-stage company, I worked across both the frontend and backend. As the company grew, I specialised in frontend development and learned how to build and maintain high-quality code. Over three and a half years, we developed a WebGL-based mapping product with multiple data layers and intuitive workflows that helped users understand and navigate indoor spaces. I eventually became the frontend team lead.
       </p>
       
       <ul>
         <li>
-          I was responsible for leading the conversation between our dev team and the design team, to ensure a smooth implementation of new UX and UI features. 
+          Led collaboration between the development and design teams to ensure the smooth implementation of new UX and UI features
         </li>
         <li>
-          Implemented  various different ways of data visualisations to support UX at the right times
+          Implemented a range of data visualisations to support users at the right moments in their workflow
         </li>
         <li>
-          Gained experience in collaborating with various other teams as well as working with management to effectively communicate technical issues and challenges. 
+          Collaborated with cross-functional teams and management to communicate technical issues and challenges effectively
         </li>
-        <li>Worked on backend services and how to set up a mutually understood and well documented API structure</li>
-        <li>I championed new technologies into our software stack to effectively combat longstanding software design issues.</li>
-        <li>Worked with tools such as React, Redux, Mapbox, WebGL, D3 and react to add a richer experience to our product</li>
+        <li>Contributed to backend services and established clear, well-documented API contracts</li>
+        <li>Introduced new technologies to address long-standing software design issues</li>
+        <li>Used React, Redux, Mapbox, WebGL, and D3 to create a richer product experience</li>
       </ul>
     </>
   )
@@ -46,19 +44,18 @@ export function JobExperienceAtKPVLab() {
   return (
     <>
       <p style={{marginBottom: '20px'}}>
-        Moving to KPV was an important change because I was overdue for a new challenge. 
-        KPV Labs certainly provided that by working on a very advanced and technically interesting 3D graphical graphing application with modern development tool chains.
+        Moving to KPV Lab gave me the new challenge I was looking for: contributing to an advanced 3D graphing application with a modern development toolchain.
       </p>
 
       <ul>
         <li>
-          Gained experience working in a different company with different approaches
+          Adapted to a new company environment and development approach
         </li>
         <li>
-          Gained more experience working with 3d software, and the associated way through which such problems should be solved 
+          Deepened my experience with 3D software and the problem-solving approaches it requires
         </li>
         <li>
-          Was able to structure code in a functional way, and to apply the Test Driven Development (TDD) software philosophy
+          Structured code using functional programming principles and applied test-driven development (TDD)
         </li>
       </ul>
     </>

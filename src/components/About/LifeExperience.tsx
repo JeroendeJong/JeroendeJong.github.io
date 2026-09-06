@@ -45,15 +45,11 @@ function RadboudUniversity() {
   return (
     <LifeExperienceItem
       imageSource="/assets/Radboud.png"
-      title="Msc in Human Geography at Radboud University"
+      title="MSc in Human Geography at Radboud University"
       period="September 2021 - December 2023"
     >
       <p>
-        My time working as a software developer taught me the importance of taking a step back before diving into the details.
-        This realisation, alongside my understanding of lacking some mangerial skills and research methodology, I concluded that I wanted to do a masteres degree.
-        This to challenge myself and also gain skills in the aforementioned areas. I decided to work towards achieving a masters degree in Human Geography at the Radboud University.
-        Human geography as a subject has not too much to do with software devlepment specifically, but I believe the soft-skills gained to be highly relevant.
-        I chose this degree because the topic has always been another one of my personal hobbies to me.
+        My experience as a software developer taught me the value of stepping back before diving into the details. Wanting to strengthen my strategic thinking, research methodology, and management skills, I pursued a master&apos;s degree in Human Geography at Radboud University. Although the subject is not directly tied to software development, the research, communication, and analytical skills I gained are highly relevant to my work. It was also a field I had long been personally interested in.
       </p>
       <TagContainer>
         <Tag>Analytical Thinking</Tag>
@@ -114,8 +110,7 @@ function HogeschoolUtrecht() {
       title="BSc Geodesy and Geo-informatics at the Hogeschool Utrecht"
       period="August 2013 - August 2017"
     >
-      During my BSc I was also able to work alot with geographical databases. I have also a lot of calcules maths, with linear algebra, matrix computation etc.
-      Furthermore, I have learned a lot about how to visualize information, how to structure data, and what data means.
+      During my BSc, I worked extensively with geographical databases and applied mathematics, including linear algebra and matrix computation. I also learned how to visualise information, structure data, and interpret its meaning.
       <TagContainer>
         <Tag>Statistics</Tag>
         <Tag>Linear Algebra</Tag>

@@ -17,7 +17,7 @@ function Article() {
 
   return (
     <div>
-      <Viewer pdfUrl={article?.data.pdfUrl}/>
+      <Viewer pdfUrl={article?.data.pdfUrl} />
     </div>
   )
 }
@@ -36,7 +36,7 @@ const ArticlePage = styled(Page)`
 `
 
 
-function Viewer({ pdfUrl }: {pdfUrl: string | undefined}) {
+function Viewer({ pdfUrl }: { pdfUrl: string | undefined }) {
   const [numPages, setNumPages] = useState<number | null>(null);
   const [pageNumber, setPageNumber] = useState(1);
 
