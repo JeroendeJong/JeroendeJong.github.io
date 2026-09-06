@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {Geo, Linkedin, Twitter, EnvelopeCheckFill, MapFill, Translate, HospitalFill, FlagFill} from 'react-bootstrap-icons'
+import { Geo, Linkedin, Twitter, EnvelopeCheckFill, MapFill, Translate, HospitalFill, FlagFill, Github } from 'react-bootstrap-icons'
 
 /**
  * In principle: if its mobile we use flexbox,
@@ -71,58 +71,58 @@ const InformationContainer = styled.div`
 function Personal() {
   return (
     <ImageContainer>
-      <RoundedImage src="assets/IMG_5551.jpeg"/>
+      <RoundedImage src="assets/IMG_5551.jpeg" />
 
       <InformationContainer>
         <IconContainer>
-          <Geo/>
+          <Geo />
           <span>Nijmegen, The Netherlands</span>
         </IconContainer>
 
         <IconContainer>
-          <HospitalFill/>
+          <HospitalFill />
           <span>19 September 1995</span>
         </IconContainer>
 
         <IconContainer>
-          <FlagFill/>
+          <FlagFill />
           <span>Dutch Nationality</span>
         </IconContainer>
 
         <IconContainer>
-          <Translate/>
+          <Translate />
           <span>Native Dutch & English</span>
         </IconContainer>
 
         <IconContainer>
-          <Translate/>
+          <Translate />
           <span>Limited German</span>
         </IconContainer>
 
         <IconContainer>
-          <Translate/>
+          <Translate />
           <span>Learning Russian</span>
         </IconContainer>
 
-        <br/>
+        <br />
 
         <IconContainer as={'a'} href="https://www.linkedin.com/in/jeroen-dejong/" target="_blank" rel="noopener noreferrer">
-          <Linkedin/>
+          <Linkedin />
           <span>Connect with me on LinkedIn</span>
         </IconContainer>
 
-        <IconContainer as={'a'} href="https://twitter.com/jeroendj11" target="_blank" rel="noopener noreferrer">
-          <Twitter/>
-          <span>Follow me on Twitter</span>
+        <IconContainer as={'a'} href="https://github.com/JeroendeJong" target="_blank" rel="noopener noreferrer">
+          <Github />
+          <span>Find me on GitHub</span>
         </IconContainer>
 
-        <IconContainer as={'a'} href="mailto:jdjjong@hotmail.com" target="_blank" rel="noopener noreferrer">
-          <EnvelopeCheckFill/>
+        <IconContainer as={'a'} href="mailto:jdjjong@icloud.com" target="_blank" rel="noopener noreferrer">
+          <EnvelopeCheckFill />
           <span>Feel free to contact me!</span>
         </IconContainer>
 
         <IconContainer as={'a'} href="http://www.jeroentravel.com" target="_blank" rel="noopener noreferrer">
-          <MapFill/>
+          <MapFill />
           <span>Personal Travel website</span>
         </IconContainer>
       </InformationContainer>
@@ -138,19 +138,19 @@ function ElevatorPitch() {
   return (
     <>
       <TextAlignParagrah>
-        Hi, Welcome to my personal website. My name is Jeroen de Jong, born and raised in the north of The Netherlands. 
-        At the end of my bachelors in Geo-informatics, I found a lot of joy in solving geographical problems. Specifically the combination between software development and data visualisation I found my passion. 
-        I however came to thoroughly enjoy software development in general because it allows me to solve problems and be creative. 
-        Working with like minded people on building complex and user friendly applications is very fun to me. 
+        Hi, Welcome to my personal website. My name is Jeroen de Jong, born and raised in the north of The Netherlands.
+        At the end of my bachelors in Geo-informatics, I found a lot of joy in solving geographical problems. Specifically the combination between software development and data visualisation I found my passion.
+        I however came to thoroughly enjoy software development in general because it allows me to solve problems and be creative.
+        Working with like minded people on building complex and user friendly applications is very fun to me.
         Specifically frontend development is something I really enjoyed because I personnaly find a good design to be extremely important.
-        I came to love working with TypeScript, React, and many other technologies that allow me to be able to create even beter user experiences. 
+        I came to love working with TypeScript, React, and many other technologies that allow me to be able to create even beter user experiences.
       </TextAlignParagrah>
-      <br/>
+      <br />
       <TextAlignParagrah>
         I have worked as a software developer for almost 5 years now, but I concluded that I was missing some more theorethical thinking level and research background.
-        As a result, I decided to pursue a Master degree in Geography at the Radboud University in Nijmegen. 
+        As a result, I decided to pursue a Master degree in Geography at the Radboud University in Nijmegen.
       </TextAlignParagrah>
-      <br/>
+      <br />
       <TextAlignParagrah>
         Now that I've finished this I am once again looking for a place where I can help build awesome software, and apply my working experience together with my new-found academical skills.
       </TextAlignParagrah>
