@@ -39,7 +39,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: yarn
 
       - name: Enable Corepack
         run: corepack enable
@@ -53,21 +52,25 @@ jobs:
       - name: Build portfolio
         run: yarn build
 
-      - name: Install and build textual clock
+      - name: Install textual clock dependencies
+        working-directory: modules/textual-clock
+        run: yarn install --immutable
+
+      - name: Build textual clock
         working-directory: modules/textual-clock
         env:
           BASE: textual-clock/
-        run: |
-          yarn install --immutable
-          yarn build
+        run: yarn vite build
 
-      - name: Install and build liquid clock
+      - name: Install liquid clock dependencies
+        working-directory: modules/liquid-clock
+        run: yarn install --immutable
+
+      - name: Build liquid clock
         working-directory: modules/liquid-clock
         env:
           BASE: liquid-clock/
-        run: |
-          yarn install --immutable
-          yarn build
+        run: yarn vite build
 
       - name: Assemble Pages site
         run: |
