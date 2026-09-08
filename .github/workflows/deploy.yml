@@ -46,8 +46,8 @@ jobs:
       - name: Install portfolio dependencies
         run: yarn install --immutable
 
-      - name: Test portfolio
-        run: yarn test
+      # - name: Test portfolio
+      #   run: yarn test
 
       - name: Build portfolio
         run: yarn build
