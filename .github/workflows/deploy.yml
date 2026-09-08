@@ -1,0 +1,94 @@
+name: Build and deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out portfolio
+        uses: actions/checkout@v4
+
+      - name: Check out textual clock
+        uses: actions/checkout@v4
+        with:
+          repository: JeroendeJong/textual-clock
+          path: modules/textual-clock
+
+      - name: Check out liquid clock
+        uses: actions/checkout@v4
+        with:
+          repository: JeroendeJong/liquid-clock
+          path: modules/liquid-clock
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install portfolio dependencies
+        run: yarn install --immutable
+
+      - name: Test portfolio
+        run: yarn test
+
+      - name: Build portfolio
+        run: yarn build
+
+      - name: Install and build textual clock
+        working-directory: modules/textual-clock
+        env:
+          BASE: textual-clock/
+        run: |
+          yarn install --immutable
+          yarn build
+
+      - name: Install and build liquid clock
+        working-directory: modules/liquid-clock
+        env:
+          BASE: liquid-clock/
+        run: |
+          yarn install --immutable
+          yarn build
+
+      - name: Assemble Pages site
+        run: |
+          mkdir -p site/textual-clock site/liquid-clock
+          cp -a dist/. site/
+          cp -a modules/textual-clock/dist/. site/textual-clock/
+          cp -a modules/liquid-clock/dist/. site/liquid-clock/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
