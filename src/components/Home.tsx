@@ -109,7 +109,7 @@ function Home() {
         </CharacteristicText>
       </MainTitleLine>
       <Description>
-        I'm a software engineer focused on frontend development, with experience in React, TypeScript and React Native. I enjoy making complex geographical data understandable through clear and understandable interfaces. Currently, I work in logistics SaaS at Simacan B.V..
+        I'm a software engineer focused on frontend development, with experience in React, TypeScript and React Native. I enjoy making complex geographical data understandable through clear interfaces. Currently, I work in logistics SaaS at Simacan B.V..
       </Description>
 
       <Navigation>

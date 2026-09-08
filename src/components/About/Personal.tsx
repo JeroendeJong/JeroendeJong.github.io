@@ -134,15 +134,15 @@ function ElevatorPitch() {
   return (
     <>
       <TextAlignParagraph>
-        I'm a software engineer with a background in geo-informatics and a particular interest in making complex data understandable and useful. My main working interest spans interactive maps, 3D visualisations and realtime data applications, with a focus on frontend development using React and TypeScript.
+        I'm a software engineer with a background in geo-informatics and a particular interest in making complex data understandable and useful. My main working interest spans interactive maps, 3D visualisations and real-time data applications, with a focus on frontend development using React and TypeScript.
       </TextAlignParagraph>
       <br />
       <TextAlignParagraph>
-        At Simacan, I work across web and mobile products, including a real-time navigation and delivery application built with React Native and Kotlin. Previously, I helped build a WebGL-based mapping product at Living Map, where I became frontend team lead, and worked on a 3D graphing application at KPV Lab.
+        At Simacan, I work across web and mobile products, including a real-time navigation and delivery application built with React Native and Kotlin. Previously, I helped build a WebGL-based mapping product at Living Map, where I became the frontend team lead, and worked on a 3D graphing application at KPV Lab.
       </TextAlignParagraph >
       <br />
       <TextAlignParagraph>
-        I enjoy working with designers and other developers to turn complex requirements into clear, usable interfaces. Alongside my engineering experience, my masters degree in Human Geography has strengthened how I research problems, evaluate evidence and communicate ideas.
+        I enjoy working with designers and other developers to turn complex requirements into clear, usable interfaces. Alongside my engineering experience, my master's degree in Human Geography has strengthened how I research problems, evaluate evidence and communicate ideas.
       </TextAlignParagraph >
     </>
   )

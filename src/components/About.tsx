@@ -35,7 +35,7 @@ function About() {
           <Tag>React</Tag>
           <Tag>Redux</Tag>
           <Tag>TypeScript</Tag>
-          <Tag>NodeJS</Tag>
+          <Tag>Node.js</Tag>
           <Tag>Styled Components</Tag>
           <Tag>Mapbox</Tag>
 
@@ -44,7 +44,7 @@ function About() {
           <Tag>Scala</Tag>
           <Tag>Git</Tag>
           <Tag>Jest</Tag>
-          <Tag>Storybooks</Tag>
+          <Tag>Storybook</Tag>
 
           <Tag>Data Visualizations</Tag>
           <Tag>(Geospatial) data</Tag>
@@ -53,8 +53,8 @@ function About() {
           <Tag>Swagger documentation</Tag>
 
           <Tag>Scrum & Agile management</Tag>
-          <Tag>Continous Integration</Tag>
-          <Tag>Continous Deployment</Tag>
+          <Tag>Continuous Integration</Tag>
+          <Tag>Continuous Deployment</Tag>
           <Tag>Kubernetes, AWS, GCP</Tag>
           <Tag>AWS</Tag>
           <Tag>GCP</Tag>

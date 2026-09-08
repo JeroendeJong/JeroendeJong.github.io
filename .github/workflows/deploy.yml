@@ -21,24 +21,25 @@ jobs:
 
     steps:
       - name: Check out portfolio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Check out textual clock
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: JeroendeJong/textual-clock
           path: modules/textual-clock
 
       - name: Check out liquid clock
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: JeroendeJong/liquid-clock
           path: modules/liquid-clock
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version: 24
+          package-manager-cache: false
 
       - name: Enable Corepack
         run: corepack enable
@@ -80,7 +81,7 @@ jobs:
           cp -a modules/liquid-clock/dist/. site/liquid-clock/
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
@@ -94,4 +95,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
