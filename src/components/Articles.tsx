@@ -40,10 +40,18 @@ const ArticleTeaser = styled.p`
   margin-top: 4px;
 `
 
+const Introduction = styled.p`
+  max-width: 46rem;
+  margin-bottom: 2rem;
+`
+
 function Articles() {
   return (
-    <Section title="Articles">
+    <Section title="Research & Writing">
       <Container>
+        <Introduction>
+          Selected work from my MSc in Human Geography and BSc in Geo-informatics.
+        </Introduction>
         <ul>
           <ArticlesList />
         </ul>
@@ -56,7 +64,7 @@ function ArticlesList() {
   // here im using Korean format since they use year month day. And tbh i am too lazy right now to fix this. 
   const formatter = new Intl.DateTimeFormat('ko-KR')
 
-  const list = articlesConfig.articles.map(article => {
+  const list = articlesConfig.articles.filter(article => article.featured).map(article => {
     const date = formatter.format(new Date(article.date));
 
     const tags = article.tags.map(tag => {

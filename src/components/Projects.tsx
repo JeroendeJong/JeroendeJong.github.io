@@ -22,7 +22,7 @@ function Projects() {
           <div>
             <ExperienceTitle as='a' rel="noopener noreferrer" href="http://www.jeroenblog.com/liquid-clock">Time through liquid motion</ExperienceTitle>
             <p>
-              Many years ago, I came across <a rel="noopener noreferrer" href="http://www.hellorhei.com/">this really awesome concept project</a>, which made a clock work using ferrofluid and magnetic activation. I recreated it in WebGL. The particle behaviour is rather complex, which made it a fun exercise to explore how I could use ChatGPT to understand the complexity and learn about its visual character.
+              Many years ago, I came across <a rel="noopener noreferrer" href="http://www.hellorhei.com/">this really awesome concept project</a>, which made a clock work using ferrofluid and magnetic activation. I recreated it in WebGL. When Astra was released, I wanted to try it out on this idea: the particle behaviour is a complex 3D problem, which made it a fun experiment in understanding and building its visual character.
             </p>
           </div>
         </ExperienceContainer>

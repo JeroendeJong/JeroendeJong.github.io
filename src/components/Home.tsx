@@ -115,7 +115,6 @@ function Home() {
       <Navigation>
         <LinkItem id="about" to="/about">About</LinkItem>
         <LinkItem id="projects" to="/projects">Projects</LinkItem>
-        <LinkItem id="articles" to="/articles">Articles</LinkItem>
       </Navigation>
     </Container>
   )

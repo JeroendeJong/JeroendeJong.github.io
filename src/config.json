@@ -2,6 +2,7 @@
   "articles": [
     {
       "id": 0,
+      "featured": true,
       "title": "Identity and the conflict in South Ossetia",
       "subtitle": "South Ossetia, a small region in the Caucasus, has been rebelling against its larger neighbour Georgia for independence since the fall of the USSR. To date, only a few countries recognise this independence, however ...",
       "date": "2022-09-15",
@@ -17,6 +18,7 @@
     },
     {
       "id": 2,
+      "featured": false,
       "title": "Violence as a tool for some and death for others",
       "subtitle": "A look at instrumentalism in the debate on violent conflicts",
       "date": "2022-10-30",
@@ -32,6 +34,7 @@
     },
     {
       "id": 3,
+      "featured": true,
       "title": "Processes of bordering and the Narva border",
       "subtitle": "In the 30-degree heat, I was sitting on a bus travelling from Tallinn to St. Petersburg, Russia. This border crossing journey took more than 10 hours, of which around ...",
       "date": "2022-11-02",
@@ -47,6 +50,7 @@
     },
     {
       "id": 4,
+      "featured": false,
       "title": "Globalisation of bordering processes",
       "subtitle": "The role of the influential external actors on bordering processes in the Nagorno Karabakh conflict",
       "date": "2022-11-02",
@@ -63,6 +67,7 @@
     },
     {
       "id": 6,
+      "featured": false,
       "title": "Border openness of the European Union",
       "subtitle": "How open can or must the external borders for migrations of the European Union be?",
       "date": "2021-09-26",
@@ -79,6 +84,7 @@
     },
     {
       "id": 7,
+      "featured": true,
       "title": "Kaartkleuren - Algoritmes voor het inkleuren van grafen",
       "subtitle": "In dit verslag wordt een aanpak van het grafenkleurprobleem gepresenteerd. De verschillende algoritmes en heuristieken die zijn gebruikt en toegepast op geografische kaarten en sociale netwerken worden uitgelegd en de resultaten worden met elkaar vergeleken",
       "date": "2015-12-18",

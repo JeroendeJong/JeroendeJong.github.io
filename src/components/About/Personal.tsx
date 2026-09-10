@@ -10,6 +10,7 @@ const RoundedImage = styled.img`
   border-radius: 50%;
   width: 300px;
   height: 300px;
+  object-fit: cover;
   box-shadow: 0 30px 40px 0 rgb(16 36 94 / 30%);
   border: 3px solid #FB5607;
 
@@ -71,7 +72,7 @@ const InformationContainer = styled.div`
 function Personal() {
   return (
     <ImageContainer>
-      <RoundedImage src="assets/IMG_5551.jpeg" />
+      <RoundedImage src="assets/headshot.jpeg" />
 
       <InformationContainer>
         <IconContainer>

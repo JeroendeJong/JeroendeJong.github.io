@@ -54,9 +54,9 @@ function Header() {
         </LogoLink>
     
         <TopSmall>
-          <TopInfoLink id="about" to="/about">About</TopInfoLink>
-          <TopInfoLink id="articles" to="/articles">Articles</TopInfoLink>
           <TopInfoLink id="projects" to="/projects">Projects</TopInfoLink>
+          <TopInfoLink id="about" to="/about">About</TopInfoLink>
+          <TopInfoLink id="articles" to="/articles">Research &amp; Writing</TopInfoLink>
         </TopSmall>  
       </nav>
     </TopContainer>
